@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+}
+
+header {
+  width: 100vw;
+  height: 80px;
+  background-color: #AE4522;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sair {
+  position: absolute;
+  left: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.6s linear;
+  transition: background-color 0.6s linear;
+  border-radius: 50%;
+}
+
+.sair:hover {
+  background-color: rgb(255, 255, 50);
+  color: black;
+}
+
+.logo {
+  background-image: url('../images/logo.png');
+  background-size: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+}

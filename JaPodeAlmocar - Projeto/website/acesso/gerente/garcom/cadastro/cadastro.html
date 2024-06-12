@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CADASTRO DE GARÇOM | GERENTE</title>
+  <link rel="stylesheet" href="../../../../assets/css/cadastro_edicao.css">
+  <script src="https://kit.fontawesome.com/45923b0080.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <a href="../opcoes.html" class="sair"><i class="fa-solid fa-arrow-left"></i></a>
+    <div class="logo"></div>
+  </header>
+  <main>
+    <form action="validar_cadastro.php" method="post" class="form">
+      <h2>Cadastro de garçom</h2>
+      <div class="painel">
+        <div class="input">
+          <span><i class="fa-solid fa-user"></i></span>
+          <input type="text" name="nome" placeholder="Nome" required>
+        </div>
+        <div class="input">
+          <span><i class="fa-solid fa-calendar-days"></i></span>
+          <input type="date" name="dataNascimento" placeholder="Data de Nascimento" required>
+        </div>
+        <div class="input">
+          <span><i class="fa-solid fa-venus-mars"></i></span>
+          <select name="sexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+          </select>
+        </div>
+        <div class="input">
+          <span><i class="fa-regular fa-envelope"></i></span>
+          <input type="email" name="email" placeholder="E-mail" required>
+        </div>
+        <div class="input">
+          <span><i class="fa-solid fa-lock"></i></span>
+          <input type="password" name="senha" placeholder="Senha" required>
+        </div>
+      </div>
+      <button type="submit" class="button">Cadastrar</button>
+    </form>
+  </main>
+</body>
+</html>

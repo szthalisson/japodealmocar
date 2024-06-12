@@ -1,0 +1,59 @@
+@import url('base.css');
+@import url('header.css');
+
+* {
+  font-family: 'helvetica', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 80px);
+}
+
+.section {
+  background-color: #AE4522;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+}
+
+.mensagem {
+  text-align: center;
+  font-family: 'helvetica', sans-serif;
+  margin-bottom: 1rem;
+  color: #d3d604;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.opcoes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.opcao {
+  background-color: #df7b1d;
+  width: 50%;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;  
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(99, 4, 4);
+  transition: all 0.6s ease;
+}
+
+.opcao:hover {
+  background-color: rgb(233, 130, 46);
+  color: #ff0000;
+}

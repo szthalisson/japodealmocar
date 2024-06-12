@@ -1,0 +1,70 @@
+@import url('base.css');
+@import url('header.css');
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 80px);
+}
+
+.section {
+  background-color: #AE4522;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'helvetica', sans-serif;
+  margin-bottom: 1rem;
+  color: #d3d604;
+}
+
+.busca {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 40%;
+  position: relative;
+  background-color: #DBCBCB;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.input input, .input button {
+  padding: 20px;
+  border: none;
+  outline: none;
+  background-color: #DBCBCB;
+  height: 100%;
+}
+
+.input input {
+  border-radius: 10px 0 0 10px;
+  width: calc(100% - 60px);
+  font-size: 16px;
+}
+
+.input input::placeholder {
+  font-size: 16px;
+}
+
+.input button {
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  font-size: 16px;
+}
+
+.table {
+  background-color: #DBCBCB;
+}
+
+td, tr, th {
+  padding: 5px;
+}

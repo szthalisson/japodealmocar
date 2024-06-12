@@ -1,0 +1,50 @@
+@import url('base.css');
+@import url('header.css');
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: calc(100vh - 80px);
+}
+
+.form {
+  background-color: #AE4522;
+  border-radius: 10px;
+  width: 30%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h1 {
+  color: #d3d604;
+  text-align: center;
+}
+
+input {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #DBCBCB;
+  border: none;
+  outline: none;
+}
+
+button {
+  min-width: 50%;
+  padding: 5px;
+  background-color: #EB3F10;
+  border-radius: 30px;
+  border: none;
+  border-bottom: 4px #9A320F solid;
+  border-right: 4px #9A320F solid;
+  cursor: pointer;
+  font-size: 24px;
+  letter-spacing: 7px;
+  color: #d3d604;
+  text-transform: uppercase;
+  font-weight: bold;
+}
